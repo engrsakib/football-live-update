@@ -12,8 +12,10 @@
     <!-- font popins -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
     <!-- link with tailwind css -->
@@ -21,7 +23,8 @@
   </head>
   <body>
     <!-- header section start -->
-     <header class="w-full h-auto pt-5 bg-[#551cd1]">
+    <header class="w-full h-auto pt-5 bg-[#551cd1]">
+      <!-- nav section start -->
       <nav class="width80 flex justify-between items-center">
         <i class="text-white sm:hidden fa-solid fa-list-ul"></i>
         <ul class="flex-drc text-white justify-between gap-9 max-sm:hidden">
@@ -35,7 +38,25 @@
           <i class="fa-solid fa-right-to-bracket ml-2"></i> LogIn
         </button>
       </nav>
-     </header>
+      <!-- nav section end -->
+      <!-- nav text and Img section start -->
+      <div class="width80 max-sm:width100 flex-drc items-center justify-between">
+        <!-- textarea start -->
+        <div class="width40 max-sm:width80">
+          <h1 class="main-heading max-sm:mt-3 text-white">Conmebol Copa America 2021</h1>
+          <button class="mt-5 btn bg-pink-600 rounded text-white ml-2 max-sm:mb-8">
+            Watch Live <i class="fa-solid fa-right-long"></i>
+          </button>
+        </div>
+        <!-- img start -->
+        <div class="width60 max-sm:width80 mt-8">
+          <img class="width100" src="./responsive-football/images/banner.png" alt="">
+        </div>
+        <!-- img end -->
+        <!-- textarea end -->
+      </div>
+      <!-- nav text and Img section end -->
+    </header>
     <!-- header section end -->
   </body>
 </html>

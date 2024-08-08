@@ -568,28 +568,132 @@ video {
   }
 }
 
-.mt-5 {
-  margin-top: 1.25rem;
+.absolute {
+  position: absolute;
+}
+
+.relative {
+  position: relative;
+}
+
+.left-4 {
+  left: 1rem;
+}
+
+.right-4 {
+  right: 1rem;
+}
+
+.top-2 {
+  top: 0.5rem;
+}
+
+.-top-2 {
+  top: -0.5rem;
+}
+
+.-top-5 {
+  top: -1.25rem;
+}
+
+.bottom-1 {
+  bottom: 0.25rem;
+}
+
+.top-1 {
+  top: 0.25rem;
 }
 
 .ml-2 {
   margin-left: 0.5rem;
 }
 
+.mt-5 {
+  margin-top: 1.25rem;
+}
+
+.ml-36 {
+  margin-left: 9rem;
+}
+
+.ml-48 {
+  margin-left: 12rem;
+}
+
+.mt-6 {
+  margin-top: 1.5rem;
+}
+
+.mt-8 {
+  margin-top: 2rem;
+}
+
 .flex {
   display: flex;
 }
 
-.hidden {
-  display: none;
+.aspect-video {
+  aspect-ratio: 16 / 9;
+}
+
+.aspect-auto {
+  aspect-ratio: auto;
 }
 
 .h-auto {
   height: auto;
 }
 
+.h-full {
+  height: 100%;
+}
+
+.h-56 {
+  height: 14rem;
+}
+
+.h-\[\] {
+  height: ;
+}
+
+.h-96 {
+  height: 24rem;
+}
+
+.h-8 {
+  height: 2rem;
+}
+
+.h-80 {
+  height: 20rem;
+}
+
+.h-9 {
+  height: 2.25rem;
+}
+
+.h-\[350px\] {
+  height: 350px;
+}
+
+.h-\[370px\] {
+  height: 370px;
+}
+
+.h-screen {
+  height: 100vh;
+}
+
 .w-full {
   width: 100%;
+}
+
+.w-24 {
+  width: 6rem;
+}
+
+.w-80 {
+  width: 20rem;
 }
 
 .items-center {
@@ -600,10 +704,6 @@ video {
   justify-content: space-between;
 }
 
-.gap-2 {
-  gap: 0.5rem;
-}
-
 .gap-9 {
   gap: 2.25rem;
 }
@@ -612,60 +712,57 @@ video {
   border-radius: 0.25rem;
 }
 
-.bg-\[\] {
-  background-color: ;
+.rounded-r-lg {
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
 }
 
-.bg-\[\#\] {
-  background-color: #;
+.rounded-r-\[\] {
+  border-top-right-radius: ;
+  border-bottom-right-radius: ;
 }
 
-.bg-\[\#fff\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+.rounded-r-\[12px\] {
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
 }
 
-.bg-\[\#2e0165\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(46 1 101 / var(--tw-bg-opacity));
+.rounded-r-\[24px\] {
+  border-top-right-radius: 24px;
+  border-bottom-right-radius: 24px;
 }
 
-.bg-\[\#010d65\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(1 13 101 / var(--tw-bg-opacity));
+.rounded-r-\[40px\] {
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 40px;
 }
 
-.bg-\[\#010665\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(1 6 101 / var(--tw-bg-opacity));
+.rounded-b-none {
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
 }
 
-.bg-\[\#010665ab\] {
-  background-color: #010665ab;
+.rounded-r-\[80px\] {
+  border-top-right-radius: 80px;
+  border-bottom-right-radius: 80px;
 }
 
-.bg-\[\#010665d4\] {
-  background-color: #010665d4;
+.rounded-r-\[50px\] {
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
 }
 
-.bg-\[\#010965d4\] {
-  background-color: #010965d4;
+.border-2 {
+  border-width: 2px;
 }
 
-.bg-\[\#0b0165d4\] {
-  background-color: #0b0165d4;
+.border-r {
+  border-right-width: 1px;
 }
 
-.bg-\[\#210165d4\] {
-  background-color: #210165d4;
-}
-
-.bg-\[\#2b0d6cd4\] {
-  background-color: #2b0d6cd4;
-}
-
-.bg-\[\#551cd1d4\] {
-  background-color: #551cd1d4;
+.border-white {
+  --tw-border-opacity: 1;
+  border-color: rgb(255 255 255 / var(--tw-border-opacity));
 }
 
 .bg-\[\#551cd1\] {
@@ -678,6 +775,15 @@ video {
   background-color: rgb(219 39 119 / var(--tw-bg-opacity));
 }
 
+.bg-sky-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(14 165 233 / var(--tw-bg-opacity));
+}
+
+.bg-transparent {
+  background-color: transparent;
+}
+
 .pt-5 {
   padding-top: 1.25rem;
 }
@@ -687,12 +793,37 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.text-pink-600 {
+  --tw-text-opacity: 1;
+  color: rgb(219 39 119 / var(--tw-text-opacity));
+}
+
+.width100 {
+  width: 100%;
+}
+
 .width80 {
   width: 80%;
   margin: 0 auto;
 }
 
+.width60 {
+  width: 60%;
+}
+
+.width40 {
+  width: 40%;
+}
+
 /* font style */
+
+.main-heading {
+  font-family: Poppins;
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: 0px;
+}
 
 .btn {
   width: 196px;
@@ -706,8 +837,29 @@ video {
 /* base layer */
 
 @media not all and (min-width: 640px) {
+  .max-sm\:mt-3 {
+    margin-top: 0.75rem;
+  }
+
+  .max-sm\:mt-8 {
+    margin-top: 2rem;
+  }
+
+  .max-sm\:mb-8 {
+    margin-bottom: 2rem;
+  }
+
   .max-sm\:hidden {
     display: none;
+  }
+
+  .max-sm\:width100 {
+    width: 100%;
+  }
+
+  .max-sm\:width80 {
+    width: 80%;
+    margin: 0 auto;
   }
 }
 
