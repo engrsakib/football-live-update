@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* custom code */
+@layer utilities{
+    /* frame style */
+    .width100{
+        width: 100%;
+    }
+    .width90{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .width80{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .width70{
+        width: 70%;
+        margin: 0 auto;
+    }
+    .width60{
+        width: 60%;
+        margin: 0 auto;
+    }
+    .width40{
+        width: 40%;
+        margin: 0 auto;
+    }
+    .width50{
+        width: 50%;
+        margin: 0 auto;
+    }
+    .width30{
+        width: 30%;
+        margin: 0 auto;
+    }
+    /* font design */
+    
+}
+/* tailwind code setup */
+@layer components{
+
+}
+
+/* base code */
+@layer base{
+
+}
