@@ -1,50 +1,64 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-/* custom code */
-@layer utilities{
-    /* frame style */
-    .width100{
-        width: 100%;
-    }
-    .width90{
-        width: 90%;
-        margin: 0 auto;
-    }
-    .width80{
-        width: 80%;
-        margin: 0 auto;
-    }
-    .width70{
-        width: 70%;
-        margin: 0 auto;
-    }
-    .width60{
-        width: 60%;
-        margin: 0 auto;
-    }
-    .width40{
-        width: 40%;
-        margin: 0 auto;
-    }
-    .width50{
-        width: 50%;
-        margin: 0 auto;
-    }
-    .width30{
-        width: 30%;
-        margin: 0 auto;
-    }
-    /* font design */
-    
+/* Utilties layer */
+@layer utilities {
+  .width100 {
+    width: 100%;
+  }
+  .width80 {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .width70 {
+    width: 70%;
+  }
+  .width60 {
+    width: 60%;
+  }
+  .width50 {
+    width: 50%;
+  }
+  .width40 {
+    width: 40%;
+  }
+  .width30 {
+    width: 30%;
+  }
+  /* font style */
+  .nav-heading {
+    font-family: Poppins;
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 1px;
+  }
+  .main-heading {
+    font-family: Poppins;
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 0px;
+  }
+  .pragraph {
+    font-family: Poppins;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 1px;
+  }
+  .btn {
+    width: 196px;
+    height: 44px;
+  }
 }
-/* tailwind code setup */
-@layer components{
-
+/* components layer */
+@layer components {
+  .flex-drc {
+    @apply flex justify-between items-center max-sm:flex-col;
+  }
 }
-
-/* base code */
-@layer base{
-
+/* base layer */
+@layer base {
+  @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 }

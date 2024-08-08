@@ -1,5 +1,5 @@
 /*
-! tailwindcss v3.4.8 | MIT License | https://tailwindcss.com
+! tailwindcss v3.4.7 | MIT License | https://tailwindcss.com
 */
 
 /*
@@ -446,6 +446,8 @@ video {
   display: none;
 }
 
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
 *, ::before, ::after {
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
@@ -554,12 +556,121 @@ video {
   --tw-contain-style:  ;
 }
 
-/* frame style */
+.flex-drc {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 
-/* font design */
+@media not all and (min-width: 640px) {
+  .flex-drc {
+    flex-direction: column;
+  }
+}
 
-/* custom code */
+.mt-5 {
+  margin-top: 1.25rem;
+}
 
-/* tailwind code setup */
+.h-auto {
+  height: auto;
+}
 
-/* base code */
+.w-full {
+  width: 100%;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.gap-2 {
+  gap: 0.5rem;
+}
+
+.gap-9 {
+  gap: 2.25rem;
+}
+
+.bg-\[\] {
+  background-color: ;
+}
+
+.bg-\[\#\] {
+  background-color: #;
+}
+
+.bg-\[\#fff\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#2e0165\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(46 1 101 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#010d65\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(1 13 101 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#010665\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(1 6 101 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#010665ab\] {
+  background-color: #010665ab;
+}
+
+.bg-\[\#010665d4\] {
+  background-color: #010665d4;
+}
+
+.bg-\[\#010965d4\] {
+  background-color: #010965d4;
+}
+
+.bg-\[\#0b0165d4\] {
+  background-color: #0b0165d4;
+}
+
+.bg-\[\#210165d4\] {
+  background-color: #210165d4;
+}
+
+.bg-\[\#2b0d6cd4\] {
+  background-color: #2b0d6cd4;
+}
+
+.bg-\[\#551cd1d4\] {
+  background-color: #551cd1d4;
+}
+
+.bg-\[\#551cd1\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(85 28 209 / var(--tw-bg-opacity));
+}
+
+.pt-5 {
+  padding-top: 1.25rem;
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.width80 {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* font style */
+
+/* Utilties layer */
+
+/* components layer */
+
+/* base layer */
