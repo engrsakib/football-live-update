@@ -51,6 +51,23 @@
     width: 196px;
     height: 44px;
   }
+  .name {
+    font-family: Poppins;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0%;
+    text-align: left;
+  }
+  .name-pra {
+    color: rgb(108, 108, 108);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+  }
 }
 /* components layer */
 @layer components {
